@@ -25,3 +25,6 @@ if __name__ == '__main__':
     asyncio.run(test_async())
 
 print('For development server')
+
+for i in range(10):
+    print(i)
