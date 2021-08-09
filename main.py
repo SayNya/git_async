@@ -23,15 +23,3 @@ async def test_async():
 
 if __name__ == '__main__':
     asyncio.run(test_async())
-
-print('For development server')
-
-numbers = [_ for _ in range(10)]
-print(numbers)
-
-for i in range(10):
-    print(i)
-
-print(1 + 1)
-
-print([0, 1])
