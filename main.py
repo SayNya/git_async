@@ -28,3 +28,6 @@ print('For development server')
 
 numbers = [_ for _ in range(10)]
 print(numbers)
+
+for i in range(10):
+    print(i)
