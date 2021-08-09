@@ -25,3 +25,6 @@ if __name__ == '__main__':
     asyncio.run(test_async())
 
 print('For development server')
+
+numbers = [_ for _ in range(10)]
+print(numbers)
