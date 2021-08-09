@@ -1,10 +1,10 @@
 import asyncio
-import math
+from math import sin, pi
 
 
 async def calculate_sin(number: int, degree: int):
     print(f'Task {number} start')
-    result = math.sin(degree * math.pi / 180)
+    result = sin(degree * pi / 180)
     if number != 5:
         await asyncio.sleep(0)
     print(f'---------------------\n'
